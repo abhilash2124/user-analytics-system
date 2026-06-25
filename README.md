@@ -12,7 +12,7 @@ A production-ready event logging, real-time analytics, and semantic discovery ba
 ## 📑 Table of Contents
 
 - [Overview](#-overview)
-- [Screenshots & Demos](#️-screenshots--demos)
+- [Project Preview](#-project-preview)
 - [Features](#-features)
 - [Architecture](#️-architecture)
 - [Technology Stack](#-technology-stack)
@@ -33,16 +33,15 @@ This system tracks user interaction event logs, processes them into 768-dimensio
 
 ---
 
-## 🖼️ Screenshots & Demos
+## 📸 Project Preview
 
-### API Workflow Demo (WebP Animation)
-![API Workflow Demo](docs/sample_workflow.webp)
+### 🔹 API Documentation (Swagger UI)
 
-### Swagger UI Overview (`/docs`)
-![Swagger UI Overview](docs/swagger_docs.webp)
+![Swagger UI](docs/swagger_docs.png)
 
-### Database Schema Structure
-![Database Schema Structure](docs/database_tables.png)
+### 🔹 Database Schema
+
+![Database Schema](docs/database_tables.png)
 
 ---
 

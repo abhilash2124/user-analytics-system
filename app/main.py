@@ -128,9 +128,9 @@ def semantic_search(query: str, limit: int = 5, db: Session = Depends(get_db)):
     return search_results
 
 
-@app.get("/")
-def read_root():
-    return {"message": "Welcome to the User Analytics & Semantic Search Engine"}
+# @app.get("/")
+# def read_root():
+#     return {"message": "Welcome to the User Analytics & Semantic Search Engine"}
 
 
 @app.get("/similar-users", response_model=SimilarUsersResponse)
