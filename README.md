@@ -39,6 +39,12 @@ This system tracks user interaction event logs, processes them into 768-dimensio
 
 ![Swagger UI](docs/swagger_docs.png)
 
+### 🗄️ Relational & Vector Database Layer (Neon PostgreSQL)
+Below is a live view of the underlying production data warehouse, illustrating standard metadata strings and structured JSON payloads stored adjacent to the high-dimensional `pgvector` coordinate blocks:
+
+![Neon PostgreSQL Live Data View](docs/database_tables_live.png)
+
+
 ### 🔹 Database Schema
 
 ![Database Schema](docs/database_tables.png)
